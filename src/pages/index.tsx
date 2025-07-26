@@ -38,6 +38,7 @@ export default function Home() {
       }
     } catch (error) {
       setSubmitStatus('error')
+      console.log(error)
     } finally {
       setIsSubmitting(false)
     }
@@ -248,7 +249,7 @@ export default function Home() {
                       placeholder="Email"
                       required
                       value={form.email}
-                       onChange={handleChange}
+                      onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent"
                     />
                   </div>
@@ -267,7 +268,7 @@ export default function Home() {
 
                   {submitStatus === 'success' && (
                     <div className="p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
-                      Thank you! We'll contact you within 24 hours.
+                      Thank you! We`&apos;`ll contact you within 24 hours.
                     </div>
                   )}
 
