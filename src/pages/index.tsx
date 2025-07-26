@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import Image from 'next/image'
 import Head from 'next/head'
-import { Bubbles, Clock, Fuel, Droplets, Wrench, SearchCheck, ShowerHead, Bath, Heater, Siren, MapPinHouse } from 'lucide-react'
+import { Bubbles, Clock, Fuel, Droplets, Wrench, SearchCheck, ShowerHead, Heater, Siren, MapPinHouse } from 'lucide-react'
 
 interface ContactForm {
   name: string
@@ -123,7 +123,7 @@ export default function Home() {
                 { icon: <Fuel className="w-8 h-8" />, title: 'Gas Testing', desc: 'Safe gas line testing & leak repair' },
                 { icon: <Bubbles className="w-8 h-8" />, title: 'Drain Cleaning', desc: 'Professional drain clearing' },
                 { icon: <Heater className="w-8 h-8" />, title: 'Water Heaters', desc: 'Installation & repair' },
-                { icon: <Bath className="w-8 h-8" />, title: 'Sewer Service', desc: 'Complete sewer solutions' },
+                { icon: <Droplets className="w-8 h-8" />, title: 'Sewer Service', desc: 'Complete sewer solutions' },
                 { icon: <ShowerHead className="w-8 h-8" />, title: 'Faucets', desc: 'Faucet installation & repair' },
                 { icon: <MapPinHouse className="w-8 h-8" />, title: 'Residential & Commercial', desc: 'Professional residential and commercial services' },
                 { icon: <Siren className="w-8 h-8" />, title: 'Emergency', desc: 'Fast emergency service' }
