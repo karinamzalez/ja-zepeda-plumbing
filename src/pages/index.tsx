@@ -142,7 +142,7 @@ export default function Home() {
         </section>
 
         {/* About Section */}
-        <section className="py-16 px-6 bg-gradient-to-b from-fuchsia-900 to-fuchsia-950 text-white">
+        <section className="py-16 px-6 bg-gradient-to-b from-blue-950 to-fuchsia-950 text-white">
           <div className="max-w-6xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className="relative">
