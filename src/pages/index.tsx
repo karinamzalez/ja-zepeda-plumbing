@@ -217,7 +217,7 @@ export default function Home() {
                     <p className="text-gray-600">24/7 Emergency Service Available</p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-red-800 mb-2">https://zepedaplumbing.com/</h3>
+                    <h3 className="text-xl font-bold text-red-800 mb-2">bexarsanantonio@gmail.com</h3>
                     <p className="text-gray-600">Get your free quote today</p>
                   </div>
                   <div className="pt-4">
