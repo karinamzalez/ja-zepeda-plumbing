@@ -164,7 +164,7 @@ export default function Home() {
               <div>
                 <h2 className="text-4xl font-bold mb-6">ABOUT US</h2>
                 <p className="text-lg leading-relaxed text-purple-100">
-                  Locally owned and operated, we are proud to serve our San Antonio community with top-quality residential and commercial plumbing services. We offer competetive pricing and fast service! Owned by a retired marine cops Vietman veteran with decades of experience, you can trust us to get the job done right. 
+                  Locally owned and operated, we are proud to serve our San Antonio community with top-quality residential and commercial plumbing services. We offer competetive pricing and fast service! Owned by a retired marine corps Vietman veteran with decades of experience, you can trust us to get the job done right. 
                 </p>
               </div>
             </div>
@@ -217,7 +217,7 @@ export default function Home() {
                     <p className="text-gray-600">24/7 Emergency Service Available</p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-red-800 mb-2">zepma@aol.com</h3>
+                    <h3 className="text-xl font-bold text-red-800 mb-2">https://zepedaplumbing.com/</h3>
                     <p className="text-gray-600">Get your free quote today</p>
                   </div>
                   <div className="pt-4">
