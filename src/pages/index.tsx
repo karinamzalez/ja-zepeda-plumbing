@@ -6,14 +6,14 @@ import { Bubbles, Clock, Fuel, Droplets, Wrench, SearchCheck, ShowerHead, Heater
 
 interface ContactForm {
   name: string
-  email: string
+  phone: string
   message: string
 }
 
 export default function Home() {
   const [form, setForm] = useState<ContactForm>({
     name: '',
-    email: '',
+    phone: '',
     message: ''
   })
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -32,7 +32,7 @@ export default function Home() {
       
       if (response.ok) {
         setSubmitStatus('success')
-        setForm({ name: '', email: '', message: '' })
+        setForm({ name: '', phone: '', message: '' })
       } else {
         setSubmitStatus('error')
       }
@@ -244,11 +244,11 @@ export default function Home() {
                   
                   <div>
                     <input
-                      type="email"
-                      name="email"
-                      placeholder="Email"
+                      type="tel"
+                      name="phone"
+                      placeholder="Phone Number"
                       required
-                      value={form.email}
+                      value={form.phone}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-red-500 focus:border-transparent"
                     />
@@ -268,7 +268,7 @@ export default function Home() {
 
                   {submitStatus === 'success' && (
                     <div className="p-4 bg-green-100 border border-green-400 text-green-700 rounded-lg">
-                      Thank you! We`&apos;`ll contact you within 24 hours.
+                      Thank you! Your message has been sent via SMS. We`&apos;`ll contact you within 24 hours.
                     </div>
                   )}
 
