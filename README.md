@@ -1,6 +1,6 @@
 # J.A. Zepeda Plumbing Website
 
-A modern, responsive website for J.A. Zepeda Plumbing built with Next.js, TypeScript, and Tailwind CSS.
+A modern, responsive website for [J.A. Zepeda Plumbing](https://zepedaplumbing.com/) built with Next.js, TypeScript, and Tailwind CSS.
 
 ## 🏗️ Technical Architecture
 
